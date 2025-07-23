@@ -1,10 +1,10 @@
-# 🧠 Semantic Chatbot for Mental Health Support
+# Semantic Chatbot for Mental Health Support
 
 This project implements a **semantic chatbot** trained on the [Mental Health Conversational Dataset](https://www.kaggle.com/datasets/elvis23/mental-health-conversational-data). It uses **SentenceTransformers** for semantic similarity to detect user intent and generate relevant responses.
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The chatbot is powered by the dataset:  
 **📁** `mental-health-conversational-data.zip`  
@@ -14,7 +14,7 @@ It includes conversational patterns and intent-based responses centered on menta
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1. **Embeddings**: The chatbot uses [`all-MiniLM-L6-v2`](https://www.sbert.net/docs/pretrained_models.html) model from the `sentence-transformers` library to compute sentence embeddings.
 2. **Similarity Matching**: It compares user input with all predefined patterns using **cosine similarity**.
@@ -23,16 +23,16 @@ It includes conversational patterns and intent-based responses centered on menta
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
-### 🧱 Requirements
+### Requirements
 
 - Python 3.7+
 - `sentence-transformers`
 - `pandas`, `numpy`
 - (Optional for dataset) `kaggle`
 
-### 📜 Setup in Google Colab
+### Setup in Google Colab
 
 ```python
 # Upload your Kaggle API key (kaggle.json)
